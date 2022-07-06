@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.ibb.co/YPGmxLx/blurry-gradient-haikei-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+select {
+  max-width: 500px;
+  width: 90%;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  background: none;
+  border: 0;
+  color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.436);
+}
+
+option {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+section {
+  width: 100%;
+  margin: auto;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.token-card {
+  border-radius: 10px;
+  margin: auto;
+  width: 80%;
+  max-width: 500px;
+  padding: calc(2.5vw + 1rem);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.493);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.token-card:hover {
+  background-color: rgba(0, 0, 0, 0.149);
+}
+
+.token span {
+  display: flex;
+}
